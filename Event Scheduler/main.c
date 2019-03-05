@@ -1,23 +1,3 @@
-/**
-
-CS341 
-Shalmika Sougandini
-PA 2: Real-Time Event Scheduler
-
-
-This program reads in user input and stores event requests in any order and then executes the requests in order in real time. I combined the given minHeap (alternated a bit) with my scheduler in one file main.c. I struggled a bit with this assignment but doing it in one .c file with the heap + thread made the most sense to me, although it may not be appropriate. 
-
-Run instructions: 
-
-$make
-$./main inp.txt
-
-The initial -1 is required to start the timer and initialize second thread. I made it to wait for initial -1 so that you can easily put all your inputs and then the output is generated. 
-
-You can uncomment the print statements in my code to better understand the program. It was helpful in debugging. 
-
-**/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>  //Header file for sleep(). man 3 sleep for details.
