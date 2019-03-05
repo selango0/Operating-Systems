@@ -1,0 +1,13 @@
+Shalmika Sougandini
+CS341
+Programming Assignment 1: A Producer-Consumer Problem
+
+**Each of the files contain thorough comments**
+
+The problem asks to create a shared memory between two processes to act as a buffer for data transfer. These two processes will then communicate in the producer-consumer mode. The producer program will read a unjumbled file ("input.txt"), jumble it with every pair of bytes swapped, and transfer its contents to the consumer through the shared memory. The consumer process will then read the jumbled file provided by the producer program through the shared buffer. The consumer will reverse the jumbling and write the data to an output file called "out.jpg" which is an image of a car. 
+
+Compile by:
+1) run "make" on the terminal in directory with all the related files
+2) ./prodcon jumbled02.jpg out.jpg
+
+Close the terminal and inspect the out.jpg file. It should be a picture of a red car. 
