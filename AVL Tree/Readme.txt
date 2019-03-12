@@ -1,5 +1,4 @@
 CS341 
-Shalmika Sougandini
 PA 2: Real-Time Event Scheduler
 
 NOTE: ignore the warning when compiling. Continue exeucting ./main inp.txt
